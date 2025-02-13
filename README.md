@@ -1,21 +1,67 @@
-Overview
+# Music Playlist Manager
 
-The Music Playlist Manager is a C program that utilizes a queue data structure to manage a dynamic playlist. It allows users to add songs to the playlist (enqueue) and play songs in order (dequeue) through a simple command-line interface.
+## Overview
+The **Music Playlist Manager** is a C program that implements a playlist system using a queue data structure. It allows users to add songs to the playlist (enqueue) and play songs in order (dequeue). The program provides a simple command-line interface for managing a dynamic playlist.
 
-Features
+## Features
+- 🎵 **Add Songs** – Enqueue songs into the playlist.
+- ⏯ **Play Songs** – Dequeue songs in order of insertion.
+- 📜 **Display Playlist** – View the current list of songs.
+- ❌ **Remove Songs** – Remove songs from the playlist.
+- 🎶 **Simple Command-Line Interface** – Lightweight and easy to use.
 
-🎵 Queue-Based Playlist – Maintains songs in a structured order using a queue.
+## Repository Structure
+```
+Music-Playlist-Manager/
+│── src/                  # Source code files
+│── include/              # Header files
+│── main.c                # Main program file
+│── queue.c               # Queue implementation
+│── queue.h               # Queue header file
+│── Makefile              # Compilation script
+│── README.md             # Project documentation
+```
 
-➕ Add Songs – Enqueue songs to the playlist.
+## Technologies Used
+- **Programming Language**: C
+- **Data Structures**: Queue (FIFO)
+- **User Interface**: Command Line
 
-▶️ Play Songs – Dequeue and play songs in order.
+## Installation
+### Prerequisites
+Ensure you have the following installed:
+- GCC compiler
 
-🛠 Simple Command-Line Interface – Easy-to-use terminal-based controls.
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/your-username/Music-Playlist-Manager.git
 
-Technologies Used
+# Navigate to the project directory
+cd Music-Playlist-Manager
 
-Programming Language: C
+# Compile the program
+make
 
-Data Structure: Queue
+# Run the application
+./playlist_manager
+```
 
-Standard Libraries: stdio.h, stdlib.h, string.h
+## Usage
+1. **Start the Music Playlist Manager**
+   ```bash
+   ./playlist_manager
+   ```
+2. **Add songs** to the playlist by selecting the corresponding option.
+3. **Play songs** in the order they were added.
+4. **Remove songs** when needed.
+5. **Exit the program** when done.
+
+## Contributors
+- **Bhavesh Mishra** *(Lead Developer)*
+
+## Contributing
+Contributions are welcome! If you find any issues or want to improve the project, feel free to fork the repository and submit a pull request.
+
+---
+Developed with ❤️ to enhance music management through simple programming.
